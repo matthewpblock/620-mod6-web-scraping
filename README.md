@@ -12,3 +12,13 @@ Choose a BeautifulSoup parser:
 
 ## Getting Started
 Fork (copy into your GitHub account) and clone down (to your machine) this repo to get started with web scraping.
+
+## Setup Notes
+1. Setup a virtual environment:  
+`py -m venv .venv`  
+2. Activate the virtual environment:  
+`.venv\Scripts\activate`  
+3. Update pip & install requirements
+`py -m pip install --upgrade pip setuptools wheel`  
+`py -m pip install -r requirements.txt`
+4. Set correct interpreter & kernel
