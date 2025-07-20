@@ -22,3 +22,4 @@ Fork (copy into your GitHub account) and clone down (to your machine) this repo 
 `py -m pip install --upgrade pip setuptools wheel`  
 `py -m pip install -r requirements.txt`
 4. Set correct interpreter & kernel
+5. `python -m spacy download en_core_web_sm` to install english language model
